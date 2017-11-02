@@ -2,40 +2,166 @@
     font-family: "DINPro";
     src: url("../fonts/DINPro.otf");
 }
+
 body
 {
     overflow-x: hidden;
     font-family: "DINPro", sans-serif;
 }
-.header {
+#header {
     position: fixed;
+    /*display: flex;*/
     overflow: hidden;
     z-index: 200;
-    display: flex;
-    flex-direction: row;
-    height: 230px;
-    background-color: #711B46;
-    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    width: 100vw;
+    transition: opacity 500ms;
 }
-.header img {
-    width: 200px;
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+#header img {
+    width: 600px;
     height: auto;
     padding: 20px;
+    margin: auto;
+    display: block;
 }
 
-.header h1 {
+#header h1 {
     font-family: "DINPro",sans-serif;
     color:#C42032;
-    align-self: center;
+    text-align: center;
 }
 
-.header h2 {
-    align-self: center;
-    color: white;
+#header h2 {
+    text-align: center;
+    color:#711B46;
+}
+
+
+@-webkit-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+@-moz-keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+@keyframes ani-mouse {
+    0% {
+        opacity: 1;
+        top: 29%;
+    }
+    15% {
+        opacity: 1;
+        top: 50%;
+    }
+    50% {
+        opacity: 0;
+        top: 50%;
+    }
+    100% {
+        opacity: 0;
+        top: 29%;
+    }
+}
+.scroll-btn {
+    display: block;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.scroll-btn > * {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    color: black;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+    color: black;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 55px;
+    margin: 0 auto 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+    position: absolute;
+    display: block;
+    top: 29%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+    background: black;
+    border-radius: 50%;
+    -webkit-animation: ani-mouse 2.5s linear infinite;
+    -moz-animation: ani-mouse 2.5s linear infinite;
+    animation: ani-mouse 2.5s linear infinite;
+
+}
+
+.logo {
+    width: 100%;
 }
 
 .contain {
     width: 10500px;
+    top:0;
+    padding-top: 60px;
 }
 
 .scroll
@@ -49,7 +175,7 @@ body
     z-index: 5;
 }
 .velo img{
-    height: 30vh;
+    height: 40vh;
 }
 
 .page{
@@ -91,6 +217,7 @@ body
 .recolt {
     z-index: 70;
     left: 4000px;
+}
 
 .text2 {
     z-index: 80;
@@ -110,4 +237,22 @@ body
 .dance {
     z-index: 110;
     left: 6000px;
+}
+
+.bouton {
+    display: inline-block;
+}
+
+.bouton > a{
+    background-color: white;
+    color: #711B46;
+    font-family: "DINPro",sans-serif;
+    border-radius: 40px;
+    width: auto;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #711B46 !important;
+    color: white;
 }
