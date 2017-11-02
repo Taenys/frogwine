@@ -9,11 +9,24 @@
     <title>Arrogant Frog</title>
 </head>
 <body>
-<div class="header">
+<div id="header">
     <img src="img/Sans%20titre-2-15.jpg" alt="logo">
-    <h1>Arrogant Frog</h1><h2>, fait son entrée chez Casino.</h2>
+
+    <h1>Arrogant Frog,</h1><h2> fait son entrée chez Casino.</h2>
+    <span class="scroll-btn">
+	<a href="#">
+		<span class="mouse">
+			<span>
+			</span>
+		</span>
+	</a>
+  <p>Faites défiler la souris vers le bas</p>
+
+</span>
 </div>
+
 <div class="contain scroll">
+
     <img src="img/table.jpg" alt="frog a table" class="table page">
     <img src="img/timbre.jpg" alt="bretagne" class="timbre page">
     <img src="img/voyage.jpg" alt="bretagne" class="voyage page">
@@ -26,27 +39,39 @@
     <img src="img/french.jpg" alt="bretagne" class="french page">
     <img src="img/dance.jpg" alt="bretagne" class="dance page">
 
+    <div class="bouton">
+        <a href="#">A propos des Domaines Paul Mas</a>
+    </div>
 
 </div>
 <div class="velo scroll">
     <img src="img/Velo.png" alt="frog à vélo" >
 </div>
 
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
 
     <script type="text/javascript">
+    var scrolled = false;
+        window.addEventListener("wheel", function (e) {
+            if(!scrolled)  {
+                scrolled = true;
+                header.className = "hidden";
+                setTimeout(
+                function() {
+                    $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+                        {
+                            widht : 'auto',
+                            height: 'auto',             // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+                            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
 
-        (function($) {
-            $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-                {
-                    widht : 'auto',
-                    height: 'auto', //parseInt(window.innerHeight, 10)*7087/2362,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
-                    onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
-                        console.log(percent);
-                    }
-                });
-        }(jQuery));
+                            }
+                        });
+                }, 500);
+            }
+        })
+
     </script>
 </body>
 
