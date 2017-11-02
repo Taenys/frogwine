@@ -14,10 +14,13 @@ body
     display: flex;
     flex-direction: row;
     height: 230px;
+    background-color: #711B46;
+    width: 100%;
 }
 .header img {
     width: 200px;
     height: auto;
+    padding: 20px;
 }
 
 .header h1 {
@@ -28,7 +31,7 @@ body
 
 .header h2 {
     align-self: center;
-    color: #711B46;
+    color: white;
 }
 
 .contain {
