@@ -9,14 +9,27 @@
     <title>Arrogant Frog</title>
 </head>
 <body>
-<div class="contain">
-    <img src="img/frogtable.jpg" alt="frog a table" class="table scroll">
-    <img src="img/Bretagne.jpg" alt="bretagne" class="bretagne scroll">
+<div class="header">
+    <img src="img/Sans%20titre-2-15.jpg" alt="logo">
+    <h1>Arrogant Frog</h1><h2>, fait son entrée chez Casino.</h2>
+</div>
+<div class="contain scroll">
+    <img src="img/table.jpg" alt="frog a table" class="table page">
+    <img src="img/timbre.jpg" alt="bretagne" class="timbre page">
+    <img src="img/voyage.jpg" alt="bretagne" class="voyage page">
+    <img src="img/voyage2.jpg" alt="bretagne" class="voyage2 page">
+    <img src="img/degust.jpg" alt="bretagne" class="degust page">
+    <img src="img/texte.jpg" alt="bretagne" class="text page">
+    <img src="img/recolt.jpg" alt="bretagne" class="recolt page">
+    <img src="img/texte2.jpg" alt="bretagne" class="text2 page">
+    <img src="img/papillon.jpg" alt="bretagne" class="papillon page">
+    <img src="img/french.jpg" alt="bretagne" class="french page">
+    <img src="img/dance.jpg" alt="bretagne" class="dance page">
 
-        <!--<img src="img/accordeon%20vecto.jpg" alt="arrogant frog" class="large scroll">-->
 
-        <img src="img/Velo.png" alt="frog à vélo" class="velo scroll">
-
+</div>
+<div class="velo scroll">
+    <img src="img/Velo.png" alt="frog à vélo" >
 </div>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -27,7 +40,8 @@
         (function($) {
             $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
                 {
-                    height: parseInt(window.innerHeight, 10)*7087/2362,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+                    widht : 'auto',
+                    height: 'auto', //parseInt(window.innerHeight, 10)*7087/2362,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
                     onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
                         console.log(percent);
                     }
