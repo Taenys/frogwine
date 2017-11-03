@@ -200,7 +200,7 @@ div.middle.scroll {
 
 .page{
     top: 0;
-    height: 700px;
+    height: 70vh;
     width: auto;
 }
 
@@ -282,7 +282,15 @@ div.contain.scroll>div.bouton > a{
     background-color: white;
     color: #711B46;
     font-family: "DINPro",sans-serif;
+    font-size: 1.8rem;
     border-radius: 40px;
-    width: auto;
     text-decoration: none;
+    padding: 100px;
+    border: solid 1px;
+}
+
+div.contain.scroll>div.bouton> a:hover{
+    background: url("../img/Château Paul Mas, Vignes de Nicole, Montagnac.jpg") no-repeat;
+    background-size: cover;
+    color: white;
 }
