@@ -1,82 +1,64 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/jInvertScroll.css">
-    <link rel="script" href="js/jquery.jInvertScroll.min.js">
-    <title>Arrogant Frog</title>
-</head>
-<body>
-<div id="header">
-    <img src="img/Sans%20titre-2-15.jpg" alt="logo">
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <h1>Arrogant Frog,</h1><h2> fait son entrée chez Casino.</h2>
-    <span class="scroll-btn">
-	<a href="#">
-		<span class="mouse">
-			<span>
-			</span>
-		</span>
-	</a>
-  <p>Faites défiler la souris vers le bas</p>
+		<title>reveal.js</title>
 
-</span>
-</div>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
-<div class="contain scroll">
-    <img src="img/base-yg.jpg" alt="frog a table" class="base page">
-    <a href="about.html" class="click page">A propos des Domaines Paul Mas</a>
-    <!--<img src="img/table.jpg" alt="frog a table" class="table page">-->
-    <!--<img src="img/timbre.jpg" alt="bretagne" class="timbre page">-->
-    <!--<img src="img/voyage.jpg" alt="bretagne" class="voyage page">-->
-    <!--<img src="img/voyage2.jpg" alt="bretagne" class="voyage2 page">-->
-    <!--<img src="img/Sans%20titre-2-18.jpg" alt="vin rouge" class="vin-rouge page">-->
-    <!--<img src="img/Sans%20titre-2-19.jpg" alt="vin blanc" class="vin-blanc page">-->
-    <!--<img src="img/Sans%20titre-2-20.jpg" alt="vin rosé" class="vin-rose page">-->
-    <!--<img src="img/degust.jpg" alt="bretagne" class="degust page">-->
-    <!--<img src="img/texte.jpg" alt="bretagne" class="text page">-->
-    <!--<img src="img/recolt.jpg" alt="bretagne" class="recolt page">-->
-    <!--<img src="img/texte2.jpg" alt="bretagne" class="text2 page">-->
-    <!--<img src="img/papillon.jpg" alt="bretagne" class="papillon page">-->
-    <!--<img src="img/french.jpg" alt="bretagne" class="french page">-->
-    <!--<img src="img/dance.jpg" alt="bretagne" class="dance page">-->
+		<link rel="script" href="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script
+				src="https://code.jquery.com/jquery-3.2.1.js"
+				integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+				crossorigin="anonymous"></script>
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 
-    <!--<div class="bouton">-->
-        <!--<a href="about.html">A propos des Domaines Paul Mas</a>-->
-    <!--</div>-->
+	</head>
+	<body>
 
-</div>
-<div class="velo scroll">
-    <img src="img/Velo.png" alt="frog à vélo" >
-</div>
+	<nav id=menu>
+		<img src="img/Velo.png" alt="frog à vélo">
+	</nav>
 
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+		<div class="reveal" id="reveal">
+			<div class="slides">
+				<section><img src="img/New%20txtt-2.png" alt="frog a table"></section>
+				<section><img src="img/New%20txtt-3.png" alt="les 3 vins"></section>
+				<section><img src="img/New%20txtt-4.png" alt="voyage"></section>
+				<section><img src="img/New%20txtt-5.png" alt="grenouille oenologue"></section>
+				<section><img src="img/New%20txtt-6.png" alt="l'histoire"></section>
+				<section data-background="img/New%20txtt-7.png"><a href="about.html"><img src="img/frog.png" alt="l'histoire" class="empreintes"></a></section>
+			</div>
+		</div>
 
-    <script type="text/javascript">
-    var scrolled = false;
-        window.addEventListener("wheel", function (e) {
-            if(!scrolled)  {
-                scrolled = true;
-                header.className = "hidden";
-                setTimeout(
-                function() {
-                    $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
-                        {
-                            widht : 'auto',
-                            height: 'auto',             // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
-                            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-                            }
-                        });
-                }, 500);
-            }
-        })
-
-    </script>
-</body>
-
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
