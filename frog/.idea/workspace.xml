@@ -14,20 +14,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="0">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="177" column="60" lean-forward="true" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
+            <state relative-caret-position="181">
+              <caret line="242" column="52" lean-forward="false" selection-start-line="242" selection-start-column="52" selection-end-line="242" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.nicescroll.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery.nicescroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,51 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reveal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/reveal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3240">
-              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reveal.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/reveal.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="white.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theme/white.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6021">
-              <caret line="223" column="26" lean-forward="false" selection-start-line="223" selection-start-column="26" selection-end-line="223" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
+            <state relative-caret-position="621">
               <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,7 +68,7 @@
       <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5265">
+            <state relative-caret-position="2592">
               <caret line="195" column="29" lean-forward="false" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
               <folding />
             </state>
@@ -132,6 +104,7 @@
         <option value="$PROJECT_DIR$/css/home.css" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/js/jquery.nicescroll.js" />
       </list>
     </option>
   </component>
@@ -173,7 +146,7 @@
             <path>
               <item name="frog" type="b2602c69:ProjectViewProjectNode" />
               <item name="frog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -190,13 +163,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\napka\Downloads\reveal.js-master" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\napka\Downloads\reveal.js-master\img" />
       <recent name="C:\Users\napka\Downloads\reveal.js-master\fonts" />
       <recent name="C:\Users\napka\Downloads\reveal.js-master\css" />
+      <recent name="C:\Users\napka\Downloads\reveal.js-master" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\napka\Downloads\frogwine-master\frogwine-master\frog\js" />
+      <recent name="C:\Users\napka\Downloads\frogwine-master\frogwine-master\frog\fonts" />
       <recent name="C:\Users\napka\Downloads\reveal.js-master" />
     </key>
   </component>
@@ -225,12 +200,12 @@
       <workItem from="1510576474106" duration="10722000" />
       <workItem from="1510588207133" duration="2756000" />
       <workItem from="1510669318281" duration="1239000" />
-      <workItem from="1510674368571" duration="23000" />
+      <workItem from="1510674368571" duration="2093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14740000" />
+    <option name="totallyTimeSpent" value="16810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -482,22 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/reveal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fonts/fontawesome-webfont.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -513,25 +472,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5265">
-          <caret line="195" column="29" lean-forward="false" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/reveal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="0">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
@@ -540,25 +483,67 @@
     <entry file="file://$PROJECT_DIR$/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
+        <state relative-caret-position="621">
           <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reveal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reveal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="195" column="29" lean-forward="false" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="177" column="60" lean-forward="true" selection-start-line="177" selection-start-column="60" selection-end-line="177" selection-end-column="60" />
+        <state relative-caret-position="181">
+          <caret line="242" column="52" lean-forward="false" selection-start-line="242" selection-start-column="52" selection-end-line="242" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.nicescroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

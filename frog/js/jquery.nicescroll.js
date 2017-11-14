@@ -11,9 +11,9 @@
 (function(jQuery){
 
   // globals
-  var domfocus = false;
-  var mousefocus = false;
-  var zoomactive = false;
+  var domfocus = true;
+  var mousefocus = true;
+  var zoomactive = true;
   var tabindexcounter = 5000;
   var ascrailcounter = 2000;
   var globalmaxzindex = 0;
@@ -60,7 +60,7 @@
       dblclickzoom:true,
       gesturezoom:true,
       grabcursorenabled:true,
-      autohidemode:true,
+      autohidemode:false,
       background:"",
       iframeautoresize:true,
       cursorminheight:32,
