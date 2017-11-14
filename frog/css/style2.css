@@ -193,6 +193,7 @@ button{
 #slides_background_home {
 	position: relative;
 	background-color:black;
+	height: 550px !important;
 }
 
 #slides_background_home .slides-container {
@@ -208,6 +209,7 @@ button{
 /* Change the picture of the home background here */
 #slides_background_home .slides-container .img0{
 	background:url(../img/vignoble.jpg) center fixed ;
+	background-size: cover;
 }
 
 #slides_background_home .slides-container .img1{
@@ -318,7 +320,7 @@ button{
 	margin:0 auto;
 	z-index:2;
 	background: transparent;
-	height:auto;
+	height:550px;
 	min-height:300px;
 	padding-left: 70px;
 }
