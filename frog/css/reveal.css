@@ -70,6 +70,14 @@ div#header img {
   left: 350px;
   z-index: 3;
 }
+@media screen and (max-width: 320px)
+{
+  .empreintes{
+    position: inherit;
+  }
+}{
+
+}
 @-webkit-keyframes ani-mouse {
   0% {
     opacity: 1;

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "DINPro";
+    src: url("../fonts/DINPro.otf");
+}
+* {
+    font-family: "DINPro", sans-serif;
+}
+#header {
+    text-align: center;
+    font-family: "DINPro", sans-serif;
+}
+#header h1 {
+    color:#C42032;
+}
+#header h2, p {
+    color:#711B46;
+}
+
+span.scroll-btn img {
+    height: 30vh;
+}
+
+.frog {
+    height: 50vh;
+}
+
+.empreinte {
+    height: 5vh;
+}
