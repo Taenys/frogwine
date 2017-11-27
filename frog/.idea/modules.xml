@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/frog.iml" filepath="$PROJECT_DIR$/.idea/frog.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/frog.iml" filepath="$PROJECT_DIR$/.idea/frog.iml" />
+=======
+>>>>>>> 8faa1651f6563c002fc0cef7f477ba0707dd89bd
       <module fileurl="file://$PROJECT_DIR$/.idea/reveal.js-master.iml" filepath="$PROJECT_DIR$/.idea/reveal.js-master.iml" />
     </modules>
   </component>
