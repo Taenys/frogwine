@@ -1,3 +1,10 @@
+/*!
+ * reveal.js
+ * http://lab.hakim.se/reveal-js
+ * MIT licensed
+ *
+ * Copyright (C) 2017 Hakim El Hattab, http://hakim.se
+ */
 /*********************************************
  * RESET STYLES
  *********************************************/
@@ -43,12 +50,7 @@ body {
   position: relative;
   line-height: 1;
   background-color: #fff;
-  color: #000;
-  font-family: "DINPro", sans-serif;
-}
-#header {
-  font-family: "DINPro", sans-serif;
-}
+  color: #000; }
 div#header img {
   height: 30vh;
 }
@@ -69,14 +71,6 @@ div#header img {
   top: 450px;
   left: 350px;
   z-index: 3;
-}
-@media screen and (max-width: 320px)
-{
-  .empreintes{
-    position: inherit;
-  }
-}{
-
 }
 @-webkit-keyframes ani-mouse {
   0% {
@@ -146,7 +140,7 @@ div#header img {
   font-weight: normal;
   color: #7f8c8d;
   color: black;
-  font-family: "DINPro", sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
 }
 .scroll-btn > *:hover,
@@ -434,7 +428,7 @@ div#header img {
   right: 8px;
   bottom: 8px;
   z-index: 31;
-  font-family: "DINPro", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 12px;
   line-height: 1;
   color: #fff;
@@ -1226,7 +1220,7 @@ div#header img {
 .reveal.rtl .slides h5,
 .reveal.rtl .slides h6 {
   direction: rtl;
-  font-family: "DINPro", sans-serif; }
+  font-family: sans-serif; }
 
 .reveal.rtl pre,
 .reveal.rtl code {
@@ -1493,7 +1487,7 @@ div#header img {
   overflow: auto;
   box-sizing: border-box;
   text-align: left;
-  font-family: "DINPro", sans-serif;
+  font-family: Helvetica, sans-serif;
   -webkit-overflow-scrolling: touch; }
 
 .reveal .speaker-notes.visible:not(:empty) {

@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/frog.iml" filepath="$PROJECT_DIR$/.idea/frog.iml" />
 <<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/frog.iml" filepath="$PROJECT_DIR$/.idea/frog.iml" />
 =======
 >>>>>>> 8faa1651f6563c002fc0cef7f477ba0707dd89bd
+=======
+>>>>>>> parent of ea9b61e... little modif
       <module fileurl="file://$PROJECT_DIR$/.idea/reveal.js-master.iml" filepath="$PROJECT_DIR$/.idea/reveal.js-master.iml" />
     </modules>
   </component>
