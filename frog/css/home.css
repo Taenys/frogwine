@@ -2,7 +2,9 @@
     font-family: "DINPro";
     src: url("../fonts/DINPro.otf");
 }
-
+* {
+    font-family: "DINPro", sans-serif;
+}
 #header {
     text-align: center;
     font-family: "DINPro", sans-serif;
@@ -15,9 +17,13 @@
 }
 
 span.scroll-btn img {
-    height: 12vh;
+    height: 30vh;
 }
 
 .frog {
     height: 50vh;
+}
+
+.empreinte {
+    height: 5vh;
 }
